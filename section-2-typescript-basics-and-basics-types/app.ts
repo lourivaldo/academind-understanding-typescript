@@ -30,21 +30,36 @@
 // console.log(combineAges2);
 
 // Type aliases
-type Combinable = number | string
-type ConversionDescriptor = 'as-number' | 'as-text'
+// type Combinable = number | string
+// type ConversionDescriptor = 'as-number' | 'as-text'
 
-function combine(n1: Combinable, n2: Combinable, resultConversion: ConversionDescriptor) {
-    if (typeof n1 === 'number' && typeof n2 === 'number' || resultConversion === 'as-number') {
-        return +n1 + +n2
-    }
-    return n1.toString() + n2.toString()
+// function combine(n1: Combinable, n2: Combinable, resultConversion: ConversionDescriptor) {
+//     if (typeof n1 === 'number' && typeof n2 === 'number' || resultConversion === 'as-number') {
+//         return +n1 + +n2
+//     }
+//     return n1.toString() + n2.toString()
+// }
+
+// const combineAges = combine(30, 26, 'as-number');
+// console.log(combineAges);
+
+// const combineAges1 = combine('30', '26', 'as-text');
+// console.log(combineAges1);
+
+// const combineAges2 = combine('30', '26', 'as-number');
+// console.log(combineAges2);
+
+// Functions Return Types
+function add(n1: number, n2: number): number {
+    return n1 + n2;
 }
+// function add(n1: number, n2: number) {
+//     return n1.toString() + n2.toString();
+// }
+// console.log(add(1, 2));
 
-const combineAges = combine(30, 26, 'as-number');
-console.log(combineAges);
-
-const combineAges1 = combine('30', '26', 'as-text');
-console.log(combineAges1);
-
-const combineAges2 = combine('30', '26', 'as-number');
-console.log(combineAges2);
+function printResult(num: number): void {
+    console.log(`Result ${num}`);
+}
+printResult(add(1, 2));
+console.log(printResult(add(1, 2)));
