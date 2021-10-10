@@ -182,3 +182,11 @@ const fetchUserData: any = {
 };
 
 console.log(fetchUserData.job?.title);
+
+
+// Nullish coalescing
+
+// const userInput1 = '';
+const userInput1 = undefined;
+const storedData = userInput1 ?? 'DEFAULT';
+console.log(storedData);
