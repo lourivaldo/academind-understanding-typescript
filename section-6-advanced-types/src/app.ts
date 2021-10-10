@@ -96,6 +96,8 @@ function useVehicle(vehicle: Vehicle) {
 useVehicle(v1);
 useVehicle(v2);
 
+// Discriminated Unions
+
 interface Bird {
     type: 'bird'
     flyingSpeed: number
@@ -126,3 +128,16 @@ function moveAnimal(animal: Animal) {
 }
 
 moveAnimal({ type: 'bird', flyingSpeed: 10 })
+
+
+// Type casting
+
+// const paragraph = document.getElementById('message-output') as HTMLParagraphElement
+// const userInput = <HTMLInputElement>document.getElementById('user-input')!
+// const userInput = document.getElementById('user-input')! as HTMLInputElement;
+// userInput.value = 'Hi there!'
+
+const userInput = document.getElementById('user-input');
+if (userInput) {
+    (userInput as HTMLInputElement).value = 'Hi there!'
+}
