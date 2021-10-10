@@ -169,3 +169,16 @@ function add2(a: Combinable, b: Combinable) {
 const result = add2(1, 3)
 const result2 = add2('A', 'B')
 
+
+// Optional Chaining
+
+const fetchUserData: any = {
+    id: 'u1',
+    name: 'Max',
+    job: { 
+        title: 'CEO', 
+        description: 'My own company' 
+    }
+};
+
+console.log(fetchUserData.job?.title);
