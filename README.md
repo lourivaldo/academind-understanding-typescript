@@ -190,14 +190,14 @@
 - [x] Wrap Up
 - [x] Useful Resources & Links
 #### Section 13: Time to Practice! Let's build a "Select & Share a Place" App (incl. Google Maps)
-- [ ] Module Introduction
-- [ ] Project Setup
-- [ ] Getting User Input
-- [ ] Setting Up a Google API Key
-- [ ] Using Axios to Fetch Coordinates for an Entered Address
-- [ ] Rendering a Map with Google Maps (incl. Types!)
-- [ ] Working with Maps without a Credit Card
-- [ ] Useful Resources & Links
+- [x] Module Introduction
+- [x] Project Setup
+- [x] Getting User Input
+- [x] Setting Up a Google API Key
+- [x] Using Axios to Fetch Coordinates for an Entered Address
+- [x] Rendering a Map with Google Maps (incl. Types!)
+- [x] Working with Maps without a Credit Card
+- [x] Useful Resources & Links
 #### Section 14: React.js & TypeScript
 - [ ] Module Introduction
 - [ ] Setting Up a React + TypeScript Project
