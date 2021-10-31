@@ -171,16 +171,16 @@
 - [x] Wrap Up
 - [x] Useful Resources & Links
 #### Section 11: Using Webpack with TypeScript
-- [ ] Module Introduction
-- [ ] What is Webpack & Why do we need it?
-- [ ] A Note About NodeJS
-- [ ] Installing Webpack & Important Dependencies
-- [ ] Adding Entry & Output Configuration
-- [ ] Adding TypeScript Support with the ts-loader Package
-- [ ] Finishing the Setup & Adding webpack-dev-server
-- [ ] Adding a Production Workflow
-- [ ] Wrap Up
-- [ ] Useful Resources & Links
+- [x] Module Introduction
+- [x] What is Webpack & Why do we need it?
+- [x] A Note About NodeJS
+- [x] Installing Webpack & Important Dependencies
+- [x] Adding Entry & Output Configuration
+- [x] Adding TypeScript Support with the ts-loader Package
+- [x] Finishing the Setup & Adding webpack-dev-server
+- [x] Adding a Production Workflow
+- [x] Wrap Up
+- [x] Useful Resources & Links
 #### Section 12: 3rd Party Libraries & TypeScript
 - [ ] Module Introduction
 - [ ] Using JavaScript (!) Libraries with TypeScript
