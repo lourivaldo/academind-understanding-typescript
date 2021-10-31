@@ -182,13 +182,13 @@
 - [x] Wrap Up
 - [x] Useful Resources & Links
 #### Section 12: 3rd Party Libraries & TypeScript
-- [ ] Module Introduction
-- [ ] Using JavaScript (!) Libraries with TypeScript
-- [ ] Using "declare" as a "Last Resort"
-- [ ] No Types Needed: class-transformer
-- [ ] TypeScript-embracing: class-validator
-- [ ] Wrap Up
-- [ ] Useful Resources & Links
+- [x] Module Introduction
+- [x] Using JavaScript (!) Libraries with TypeScript
+- [x] Using "declare" as a "Last Resort"
+- [x] No Types Needed: class-transformer
+- [x] TypeScript-embracing: class-validator
+- [x] Wrap Up
+- [x] Useful Resources & Links
 #### Section 13: Time to Practice! Let's build a "Select & Share a Place" App (incl. Google Maps)
 - [ ] Module Introduction
 - [ ] Project Setup
