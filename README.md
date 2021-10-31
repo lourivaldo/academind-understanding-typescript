@@ -159,17 +159,17 @@
 - [x] Wrap Up
 - [x] Useful Resources & Links
 #### Section 10: Modules & Namespaces
-- [ ] Module Introduction
-- [ ] Writing Module Code - Your Options
-- [ ] Working with Namespaces
-- [ ] Organizing Files & Folders
-- [ ] A Problem with Namespace Imports
-- [ ] Important: Use Chrome or Firefox
-- [ ] Using ES Modules
-- [ ] Understanding various Import & Export Syntaxes
-- [ ] How Does Code In Modules Execute?
-- [ ] Wrap Up
-- [ ] Useful Resources & Links
+- [x] Module Introduction
+- [x] Writing Module Code - Your Options
+- [x] Working with Namespaces
+- [x] Organizing Files & Folders
+- [x] A Problem with Namespace Imports
+- [x] Important: Use Chrome or Firefox
+- [x] Using ES Modules
+- [x] Understanding various Import & Export Syntaxes
+- [x] How Does Code In Modules Execute?
+- [x] Wrap Up
+- [x] Useful Resources & Links
 #### Section 11: Using Webpack with TypeScript
 - [ ] Module Introduction
 - [ ] What is Webpack & Why do we need it?
